@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(135deg, #FFDE2E 0%, #6018DC 100%);
+    font-family: 'Source Serif Pro', sans-serif;
+    overflow: hidden;
+}
+
+.right{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap :7rem;
+    padding: 0 2rem;
+}
+
